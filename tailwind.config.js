@@ -8,5 +8,5 @@ module.exports = {
 	future: {
 		hoverOnlyWhenSupported: true,
 	},
-	plugins: ['nativewind/babel'],
+	plugins: ['nativewind/babel', require('@tailwindcss/typography'), require('@tailwindcss/forms')],
 }
