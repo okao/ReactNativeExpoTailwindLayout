@@ -24,6 +24,16 @@ const TabsLayout = () => {
 					),
 				}}
 			/>
+			<Tabs.Screen
+				name="explore"
+				options={{
+					title: 'Explore',
+					tabBarIcon: ({ color, focused }) => (
+						// <TabBarIcon name={focused ? 'home' : 'home-outline'} color={color} />
+						<Ionicons name={focused ? 'home' : 'home-outline'} size={24} color={color} />
+					),
+				}}
+			/>
 		</Tabs>
 	)
 }
