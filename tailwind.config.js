@@ -8,5 +8,5 @@ module.exports = {
 	future: {
 		hoverOnlyWhenSupported: true,
 	},
-	plugins: [],
+	plugins: ['nativewind/babel'],
 }
